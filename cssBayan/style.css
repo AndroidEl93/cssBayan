@@ -29,6 +29,18 @@ body {
 	border-bottom: 0.01rem solid gray;
 }
 
+.accordion img {
+	height: 0;
+	transition: 200ms;
+	display: block;
+	margin: auto;
+}
+
+.accordion input:hover ~ img,
+.accordion input:checked ~ img {
+	height: 50vmin;
+}
+
 @media (min-width: 1920px) {
 	.accordion {
 		font-size: xx-large;
