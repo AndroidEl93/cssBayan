@@ -1,0 +1,26 @@
+body {
+	font-family: calibri;
+	font-weight: bold;
+	background-color: beige;
+	padding: 1rem 0;
+}
+
+.accordion {
+	width: 80%;
+	margin: auto;
+}
+
+.accordion input {
+	display: none;
+}
+
+.accordion label {
+	display: block;
+	border-top: 0.01rem solid gray;
+	padding: 0.5rem 0;
+	cursor: pointer;
+}
+
+.accordion label:last-child {
+	border-bottom: 0.01rem solid gray;
+}
